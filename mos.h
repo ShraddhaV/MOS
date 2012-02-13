@@ -10,6 +10,9 @@
 #include "cpu.h"
 #include "cardreader.h"
 #include "stdlib.h"
+#include <cstring>
+#include <vector>
+using namespace std ;
 class Cpu;
 class MOS {
 	char sys_ibuff[45],sys_obuff[45];
